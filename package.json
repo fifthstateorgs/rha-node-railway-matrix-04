@@ -1,0 +1,16 @@
+{
+  "name": "rha-node-railway-matrix-04",
+  "version": "1.0.0",
+  "description": "RHA Railway Seat Matrix – Zone-wise Allocation Gateway",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["rha", "rrb", "railway", "ntpc", "gateway", "node"],
+  "author": "fifthstateorgs",
+  "license": "MIT",
+  "config": {
+    "ENDPOINT_URI": "https://decoderha.pages.dev/",
+    "STATIC_PASSKEY": "RSRX-INDIA"
+  }
+}
